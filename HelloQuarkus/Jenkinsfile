@@ -1,0 +1,23 @@
+pipeline {
+
+    // agent any
+    agent  { label 'quarkus' }
+
+    stages {
+        stage('Build') {
+            steps {
+                mvn clean package
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing HelloPipeline ..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying HelloPipeline ..'
+            }
+        }
+    }
+}
