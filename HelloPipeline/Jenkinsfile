@@ -5,17 +5,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building HelloWorld ..'
+                echo 'Building HelloPipeline ..'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing HelloWorld ..'
+                echo 'Testing HelloPipeline ..'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying HelloWorld ..'
+                echo 'Deploying HelloPipeline ..'
             }
         }
     }
