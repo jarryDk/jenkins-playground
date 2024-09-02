@@ -1,0 +1,5 @@
+= Jenkins Playground
+
+Project to play with Jenkins - setup and pipelines
+
+== HelloWorld
