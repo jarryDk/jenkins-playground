@@ -5,6 +5,8 @@ library identifier: 'pipeline-library@main', retriever: modernSCM(
 
 sayHello 'Dave'
 
+getHello 'Peter'
+
 String hello getHello 'Peter'
 
 sayHello ${hello}
