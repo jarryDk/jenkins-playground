@@ -5,8 +5,6 @@ library identifier: 'pipeline-library@main', retriever: modernSCM(
 
 sayHello 'Dave'
 
-getHello 'Peter'
+def hello getHello 'Peter'
 
-String hello getHello 'Peter'
-
-sayHello ${hello}
+echo "Hello, ${hello}."
