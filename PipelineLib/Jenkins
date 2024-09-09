@@ -1,0 +1,6 @@
+library identifier: 'pipeline-library@main', retriever: modernSCM(
+    [$class       : 'GitSCMSource',
+     remote       : 'https://github.com/jarryDk/pipeline-library.git'
+    ])
+
+sayHello 'Dave'
