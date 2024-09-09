@@ -4,3 +4,5 @@ library identifier: 'pipeline-library@main', retriever: modernSCM(
     ])
 
 sayHello 'Dave'
+
+sayHello getHello
