@@ -8,3 +8,5 @@ sayHello 'Dave'
 def hello = getHello 'Peter'
 
 echo "Hello, ${hello}."
+
+combiHello 'Combi'
